@@ -18,7 +18,7 @@ axios.interceptors.request.use(
     if (userConfig) {
       const { token } = JSON.parse(userConfig)
       if (token) {
-        config.headers.Authorization = `token ${GH_TOKEN}`
+        config.headers.Authorization = `token ${token}`
       }
     }
 
