@@ -12,7 +12,7 @@ import TimeHelper from '@/utils/time-helper'
 
 const initUserConfigInfo = (): UserConfigInfoModel => {
   const initConfig: UserConfigInfoModel = {
-    token: ${GH_TOKEN},
+    token: '',
     owner: '',
     email: '',
     name: '',
