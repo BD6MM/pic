@@ -28,7 +28,7 @@ export function uploadImage_single(
   img.uploadStatus.uploading = true
 
   const data: any = {
-    message: 'Upload picture via BD6MM (https://bd6mm.cn/blog/)',
+    message: 'Upload picture by BD6MM (https://bd6mm.cn/blog/)',
     branch: selectedBranch,
     content: img.imgData.base64Content
   }
